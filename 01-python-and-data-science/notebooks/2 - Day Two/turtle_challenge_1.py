@@ -9,7 +9,6 @@ t = turtle.Turtle()
 t.speed(20)
 
 # Challenge 1: Squares in a Grid
-
 # YOUR CODE HERE
 t.penup()
 t.pencolor("white")
