@@ -1,7 +1,7 @@
 import turtle
 
 window = turtle.Screen()
-window.setup(width=800, height=800)
+window.setup(width=800, height=650)
 window.bgcolor("black")
 window.title("Turtle Power")
 
@@ -12,7 +12,7 @@ t.speed(20)
 # YOUR CODE HERE
 t.penup()
 t.pencolor("white")
-t.setposition(-200, 250)
+t.setposition(-200, 200)
 #t.backward(300)
 t.pendown()
 for j in range (0,3):
@@ -38,7 +38,7 @@ for j in range (0,3):
     t.penup()
     t.forward(150)
 
-t.setposition(-200, -150)
+t.setposition(-200, -100)
 #t.backward(300)
 t.pendown()
 for j in range (0,3):
