@@ -31,7 +31,11 @@ RUN pip3 install --no-cache-dir --upgrade pip \
     && pip3 install --no-cache-dir jupyter \
     && pip3 install --no-cache-dir fastai \
     && pip3 install --no-cache-dir timm \
+<<<<<<< Updated upstream
     && pip3 install --no-cache-dir timm
+=======
+    && pip3 install --no-cache-dir torch
+>>>>>>> Stashed changes
 
 # Expose Jupyter notebook port
 EXPOSE 8888
